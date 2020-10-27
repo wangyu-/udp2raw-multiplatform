@@ -48,7 +48,7 @@ linux_nolibnet:git_version
 
 freebsd:git_version
 	rm -f ${OUTPUTS}
-	${cc_local}   -o ${NAME}          -I. ${SOURCES} ${PCAP} ${LIBNET} ${FLAGS} -lrt -ggdb -static -O2
+	${cc_local}   -o ${NAME}         -I. ${SOURCES} -lpcap -lnet -lrdmacm -libverbs -lvgl -lvmmapi ${LIBNET} $(FLAGS) -lrt -ggdb -static -O2 -L/usr/lib
 
 freebsd_nolibnet:git_version
 	rm -f ${OUTPUTS}
