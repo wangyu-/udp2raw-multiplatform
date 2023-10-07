@@ -9,3 +9,10 @@ udp2raw的跨平台版，协议兼容[linux版的udpraw](https://github.com/wang
 Check [Wiki](https://github.com/wangyu-/udp2raw-multiplatform/wiki) for details.
 
 更多信息，见 [Wiki](https://github.com/wangyu-/udp2raw-multiplatform/wiki)。
+
+
+### Note
+
+Since 2021, the codes in this repo have been merge back to [udp2raw repo](https://github.com/wangyu-/udp2raw-tunnel). Now this repo is only for binaries releasing, issue disscussion and holding related wiki articles, for Windows/Mac/BSD.
+
+从2021开始，这个repo的代码已经合并到[udp2raw repo](https://github.com/wangyu-/udp2raw-tunnel)。 本repo仅用来发布Windows/Mac/BSD的binary release，讨论相关issue，和存放wiki文档。
